@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local inputs and exports that may contain personal or customer data.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.ods
+
+# Secrets and local environment files.
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

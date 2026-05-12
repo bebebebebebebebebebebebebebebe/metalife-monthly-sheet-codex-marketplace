@@ -1,0 +1,20 @@
+{
+  "name": "metalife-monthly-sheet-codex-marketplace",
+  "interface": {
+    "displayName": "MetaLife Monthly Sheet Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "metalife-monthly-sheet",
+      "source": {
+        "source": "local",
+        "path": "./plugins/metalife-monthly-sheet"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

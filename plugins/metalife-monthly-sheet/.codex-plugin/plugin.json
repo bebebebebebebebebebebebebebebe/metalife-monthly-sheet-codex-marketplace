@@ -1,0 +1,38 @@
+{
+  "name": "metalife-monthly-sheet",
+  "version": "0.1.0",
+  "description": "Import MetaLife timecard CSV exports into existing monthly Google Sheets reports while preserving formulas and formatting.",
+  "author": {
+    "name": "bebebebebebebebebebebebebebebe",
+    "url": "https://github.com/bebebebebebebebebebebebebebebe"
+  },
+  "homepage": "https://github.com/bebebebebebebebebebebebebebebe/metalife-monthly-sheet-codex-marketplace",
+  "repository": "https://github.com/bebebebebebebebebebebebebebebe/metalife-monthly-sheet-codex-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "plugin",
+    "metalife",
+    "google-sheets",
+    "timecard"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MetaLife Monthly Sheet",
+    "shortDescription": "Import MetaLife CSVs safely",
+    "longDescription": "Parse MetaLife timecard CSV exports and guide safe updates to existing monthly Google Sheets reports while preserving headers, formulas, formatting, validations, dimensions, and summary cells.",
+    "developerName": "bebebebebebebebebebebebebebebe",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/bebebebebebebebebebebebebebebe/metalife-monthly-sheet-codex-marketplace",
+    "defaultPrompt": [
+      "Import a MetaLife timecard CSV into my monthly Google Sheet.",
+      "Parse this MetaLife CSV and summarize the monthly rows.",
+      "Check whether this MetaLife CSV can safely update my sheet."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MetaLife Monthly Sheet"
+  short_description: "Import MetaLife CSVs safely"
+  default_prompt: "Import a MetaLife timecard CSV into my existing monthly Google Sheet while preserving formulas and formatting."
